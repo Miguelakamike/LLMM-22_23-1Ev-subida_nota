@@ -1,1 +1,30 @@
-/* Aquí va el css */
+h1{
+    height: 48px;
+}
+.negrita {
+    font-weight: bold;
+}
+tr:nth-child(2n+1){
+    background-color: lightblue;
+}
+
+ul{
+    color: #777777;
+}
+ol{
+    padding-left: 24px;
+}
+form{
+    max-width: 300px;
+    padding: 12px;
+}
+
+.cajaNegra{
+    padding: 20px;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+    width: 50%;
+}
+.azul {
+    background-color: aquamarine;
+}
+

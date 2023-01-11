@@ -1,1 +1,31 @@
-// aquí va el json, borrar esta línea
+<empleado>
+    <nombre>Messi</nombre>
+    <apellidos>Chiquito</apellidos>
+    <direccion>
+        <calle>Uria 28</calle>
+        <ciudad>Oviedo</ciudad>
+    </direccion>
+    <departamentos>
+        programacion
+        diseño
+        analisis
+    </departamentos>
+    <proyectos>
+        <proyecto>
+            <nombre>pagina web</nombre>
+            <duracion>20 horas</duracion>
+        </proyecto>
+        <proyecto>
+            <nombre>aplicacion movil</nombre>
+            <duracion>27 horas</duracion>
+        </proyecto>
+        <proyecto>
+            <nombre>rediseño de portatil</nombre>
+            <duracion>12 horas</duracion>
+        </proyecto>
+    
+    </proyectos>
+
+
+
+</empleado>

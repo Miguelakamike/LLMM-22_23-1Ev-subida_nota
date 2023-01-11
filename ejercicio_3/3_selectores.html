@@ -12,7 +12,7 @@
 
     <style>
         /*todos los elementos*/
-            {
+        *{
             padding: 0;
             margin: 0;
             box-sizing: border-box;
@@ -20,13 +20,13 @@
         }
 
         /* los h2 */
-            {
+        h2{
             font-size: 32px;
             margin-bottom: 16px;
         }
 
         /*elementos con clase contenedor*/
-            {
+        .contenedor{
             max-width: 300px;
             padding: 12px;
             padding-bottom: 24px;
@@ -37,7 +37,7 @@
         }
 
         /*los enlaces dentro de los contenedores*/
-            {
+        .contenedor a{
             padding: 12px 16px;
             color: white;
             background-color: rgb(99, 37, 223);
@@ -51,17 +51,17 @@
 
 
         /* todos los hijos directos de los contenedores */
-            {
+        .contenedor > *{
             display: block;
         }
 
         /* los contenedores pares  */
-            {
+        .contenedor:nth-child(2n){
             background-color: rgb(203, 177, 255);
         }
 
         /* los <a> hijos del segundo contenedor */
-            {
+        .contenedor:nth-child(2) > a{
             background-color: rgb(244, 209, 69);
             color: black;
         }

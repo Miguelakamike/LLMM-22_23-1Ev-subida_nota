@@ -6,10 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <!-- vincular aquí el css -->
+    <div id="navegacion">
+        <a href="./inicio.html">Ir a Inicio</a><br>
+        <a href="./contact.html">Ir a contact</a><br>
+        <a href="./tabla.html">Ir a la tabla</a><br>
+    </div>
+    <link rel="stylesheet" href="../style.css">
+
 </head>
 
 <body>
+    <h1>Contacto</h1>
+        <form class="cajaNegra">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="escriba aqui su nombre"><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="email@gmail.com"><br>
+    
+            <label for="contraseña">Contraseña:</label><br>
+            <input type="password" id="contraseña" name="contraseña" placeholder="escriba su contraseña"><br>
+    
+            <label for="f_nacimiento">Fecha nacimiento:</label><br>
+            <input type="date" id="f_nacimiento" name="f_nacimiento"><br>
+    
+            <label for="telefono">Número de teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+    
+            <input type="radio" id="radio-cliente" name="cliente">
+            <label for="radio-cliente">Empresa</label><br>
+    
+            <input type="radio" id="radio-cliente" name="cliente">
+            <label for="radio-cliente">Particular</label><br>
+    
+            <input type="radio" id="radio-cliente" name="cliente">
+            <label for="radio-cliente">Estudiante</label><br><br>
+    
+            <!--Tambien se puede hacer así-->
+            <!--<button type="submit">ENVIAR FORMULARIO</button>-->
+        
+            <input type="button" value="ENVIAR FORMULARIO">
+    
+        
+
+
+        
+
+    </form>
 
 </body>
 

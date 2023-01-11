@@ -1,1 +1,34 @@
-// aquí va el json, borrar esta línea
+{
+    "empleado": {
+
+        "nombre": "Messi",
+        "apellidos": "chiquito",
+        "direccion": {
+            "calle": "Uria 28",
+            "ciudad": "Oviedo"
+
+        },
+        "departamentos": [
+            "programacion",
+            "diseño",
+            "analisis"
+        ],
+        "proyectos": [
+            {
+                "nombre": "pagina web",
+                "duracion": "20 horas"
+            },
+            {
+                "nombre": "aplicacion movil",
+                "duracion": "27 horas" 
+            },
+            {
+                "nombre": "rediseño de portatil",
+                "duracion": "12 horas"
+            }
+        ]
+    }
+
+
+
+}
